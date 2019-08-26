@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
-import TopicBrowser from './components/TopicBrowser/TopicBrowser';
-import EvenAndOdd from '../Topics/EvenAndOdd';
-import FilterObject from '../Topics/FilterObject';
-import FilterString from '../Topics/FilterString';
-import Palindrome from '../Topic/Palindrome';
-import Sum from '../Topics/Sum';
+import TopicBrowser from '../src/components/TopicBrowser/TopicBrowser';
+import EvenAndOdd from '../src/components/Topics/EvenAndOdd'
+import FilterObject from '../src/components/Topics/FilterObject';
+import FilterString from '../src/components/Topics/FilterString';
+import Palindrome from '/Users/ben_eccles/devmtn/week3/react-1-afternoon/src/components/Topics/Palindrome.js';
+import Sum from '../src/components/Topics/Sum';
 
 class App extends Component {
   render() {
     return (
+      <div>
       <TopicBrowser />
       <EvenAndOdd />
       <FilterObject />
       <FilterString />
       <Palindrome />
       <Sum />
+      </div>
     )
   }
 }
