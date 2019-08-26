@@ -31,7 +31,6 @@ class FilterObject extends Component {
     }
 
     filterRobots(prop){
-        console.log(prop);
         let robots = this.state.robots;
         let filterRobots = [];
 
